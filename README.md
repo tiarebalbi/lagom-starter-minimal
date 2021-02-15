@@ -7,6 +7,8 @@
   Lagom minimal starter (scala)
 </h1>
 
+![Scala CI](https://github.com/tiarebalbi/lagom-starter-minimal/workflows/Scala%20CI/badge.svg)
+
 ## 📜 Summary
 
 This is a minimal version, not an empty version, so to help you with your first service an initial project called `core-api`
