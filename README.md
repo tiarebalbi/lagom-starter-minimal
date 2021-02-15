@@ -7,6 +7,17 @@
   Lagom minimal starter (scala)
 </h1>
 
+## 📜 Summary
+
+This is a minimal version, not an empty version, so to help you with your first service an initial project called `core-api`
+ and `core-impl` were created with a basic interface for a simple rest api.
+
+Make sure to review the `build.sbt` file to set the dependencies and configurations needed.
+
+For more details on how to use check the lagom documentation:
+
+[https://www.lagomframework.com/documentation/1.6.x/scala/Home.html](https://www.lagomframework.com/documentation/1.6.x/scala/Home.html)
+
 ## 🚀 Quick start
 
 1.  **SBT Setup**
