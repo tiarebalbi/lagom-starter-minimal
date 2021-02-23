@@ -1,7 +1,8 @@
 package com.tiarebalbi.core.impl
 
 import com.lightbend.lagom.scaladsl.api.ServiceLocator.NoServiceLocator
-import com.lightbend.lagom.scaladsl.api.{Descriptor, ServiceLocator}
+import com.lightbend.lagom.scaladsl.api.Descriptor
+import com.lightbend.lagom.scaladsl.api.ServiceLocator
 import com.lightbend.lagom.scaladsl.broker.kafka.LagomKafkaClientComponents
 import com.lightbend.lagom.scaladsl.devmode.LagomDevModeComponents
 import com.lightbend.lagom.scaladsl.server._
@@ -22,7 +23,7 @@ class CoreLoader extends LagomApplicationLoader {
 }
 
 abstract class CoreApplication(context: LagomApplicationContext)
-  extends LagomApplication(context)
+    extends LagomApplication(context)
     with LagomKafkaClientComponents
     with AhcWSComponents {
 
