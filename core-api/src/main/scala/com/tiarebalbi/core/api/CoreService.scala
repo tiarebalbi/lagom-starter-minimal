@@ -1,7 +1,9 @@
 package com.tiarebalbi.core.api
 
 import akka.NotUsed
-import com.lightbend.lagom.scaladsl.api.{Descriptor, Service, ServiceCall}
+import com.lightbend.lagom.scaladsl.api.Descriptor
+import com.lightbend.lagom.scaladsl.api.Service
+import com.lightbend.lagom.scaladsl.api.ServiceCall
 
 /**
  * Default Core Service
@@ -10,7 +12,7 @@ import com.lightbend.lagom.scaladsl.api.{Descriptor, Service, ServiceCall}
  */
 trait CoreService extends Service {
 
-  override final def descriptor: Descriptor = {
+  final override def descriptor: Descriptor = {
     import Service._
 
     // @formatter:off
