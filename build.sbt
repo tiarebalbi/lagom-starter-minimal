@@ -6,7 +6,7 @@ version in ThisBuild := "1.0-SNAPSHOT"
 scalaVersion in ThisBuild := "2.13.0"
 
 val macwire = "com.softwaremill.macwire" %% "macros" % "2.3.7" % "provided"
-val scalaTest = "org.scalatest" %% "scalatest" % "3.2.5" % Test
+val scalaTest = "org.scalatest" %% "scalatest" % "3.2.6" % Test
 
 lazy val `lagom-starter-minimal` = (project in file("."))
   .aggregate(`core-api`, `core-impl`)
